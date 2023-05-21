@@ -895,7 +895,7 @@ textarea:focus {
 .popup_calc_end_close {
   position: absolute;
   top: -2.2rem;
-  right: -5rem;
+  right: -50px;
   font-size: 4rem;
   color: #ffffff;
   border: none;
@@ -1327,6 +1327,9 @@ textarea:focus {
     margin-right: 0;
     margin-bottom: 2rem;
   }
+  .timer1 {
+    margin: 0 auto;
+  }
 }
 
 @media (max-width: 767px) {
@@ -1360,6 +1363,14 @@ textarea:focus {
 
   .header_btn_wrap_block {
     width: 10%;
+  }
+
+  .header .working_hours {
+    margin-left: 50px;
+  }
+
+  .header .contact_us {
+    margin-left: 50px;
   }
 
   .header .working_hours {
@@ -1487,6 +1498,27 @@ textarea:focus {
     padding-bottom: 3rem;
   }
 
+  .timer1 {
+    width: 280px;
+  }
+
+  .numbers1 {
+    font-size: 31.5px;
+  }
+
+  .numbers1:nth-child(4) {
+    margin-right: 0px;
+  }
+
+  .container1 {
+    margin-top: 7.5px;
+  }
+
+  .description1 {
+    margin-top: 4px;
+    font-size: 14px;
+  }
+
   .form h2 {
     margin-bottom: 1rem;
     font-size: 1.4rem;
@@ -1563,7 +1595,13 @@ textarea:focus {
     margin-top: 1rem;
   }
 
+  .header .working_hours {
+    margin-left: 0px;
+  }
 
+  .header .contact_us {
+    margin-left: 0px;
+  }
 
   .header .working_hours p {
     font-size: 1.2rem;
@@ -1728,7 +1766,7 @@ textarea:focus {
   .popup_calc_end_close {
     position: absolute;
     top: -1rem;
-    right: 1rem;
+    right: 2px;
     font-size: 4rem;
     color: #000000;
     border: none;
@@ -1738,7 +1776,7 @@ textarea:focus {
   .popup_calc_close {
     position: absolute;
     top: -1rem;
-    right: 1rem;
+    right: 2px;
     font-size: 4rem;
     color: #000000;
     border: none;
@@ -1807,7 +1845,7 @@ textarea:focus {
   .popup_calc_profile_close {
     position: absolute;
     top: -1rem;
-    right: 1rem;
+    right: 2px;
     font-size: 4rem;
     color: #000000;
     border: none;
