@@ -9,6 +9,8 @@ import images from './modules/images';
 window.addEventListener('DOMContentLoaded', () => {
   'use strict';
 
+  new WOW().init();
+  
   let modalState = {};
 
   changeModalState(modalState);
